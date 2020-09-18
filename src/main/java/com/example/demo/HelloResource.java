@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloResource {
     @RequestMapping({"/"})
     public String halo(){
-        return "index.html";
+        return "Em lam xong roi day a. Dang nghien cuu mapping qua trang index ";
     }
 }
